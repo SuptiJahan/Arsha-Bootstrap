@@ -1,0 +1,173 @@
+/*google font*/
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@200;300;400;500;700;800&family=Open+Sans:wght@300;400;600;700&display=swap');
+/*global css*/
+:root{
+    /*global color*/
+    --primary-color:#535353;
+    --secondary-color:#AFB9CB;
+    --text-color:#209DD8;
+    --header-color:#124265;
+    --white-color:#FAFCFE;
+    
+    /*global font*/
+    --primary-font: 'Open Sans', sans-serif;
+    --secondary-font:'Jost', sans-serif;
+}
+body {
+    font-family: "Open Sans", sans-serif;
+}
+h1, h2, h3, h4, h5, h6 {
+   font-family: 'Jost', sans-serif;
+   color: var(--header-color);
+   
+}
+p{
+  color: var(--primary-color);
+}
+/* Header-section */
+a.navbar-brand {
+  /* color: var(--white-color); */
+  font-family: var(--secondary-font);
+}
+/* Hero-section */
+section#Hero-section {
+    background: #37517e;
+    color: var(--white-color);
+}
+/* .col.aos-init.aos-animate {
+  transition:all .3s;
+} */
+h2.fs-4 {
+  color: var(--secondary-color);
+}
+button.btn.banner-button {
+  background-color: var(--text-color);
+  color: var(--white-color);
+  transition: 0.3s;
+}
+.btn.banner-button:hover{
+  background-color:#47b2e4;
+}
+/* client-section */
+.client-section-bg{
+  background-color: #f3f5fa;
+}
+.filter{
+  filter: grayscale(100%);
+  transform: scale(1);
+ 
+}
+.client-img:hover{
+  filter: grayscale(0);
+  transform: scale(1.3);
+}
+/* about us section */
+.about-button{
+  color: var(--text-color);
+  border:2px solid var(--text-color);
+}
+.about-button:hover{
+  background-color:#47b2e4;
+  color: var(--white-color);
+}
+ul.about {
+  list-style: none;
+  padding-left: 0;
+}
+i.fas.fa-check-double.pe-2 {
+  color: var(--text-color);
+}
+/* banner section */
+button.accordion-button.collapsed {
+  color: var(--text-color);
+}
+/* count-section */
+.count-inner{
+  color: var(--header-color);
+}
+/* services-section */
+.icon{
+  color: var(--text-color);
+}
+.card{
+  box-shadow: 0px 0 25px 0 rgb(0 0 0 / 10%);
+  border:none;
+  border-radius: 0px;
+  /* transform: scale(1); */
+  transition: all  0.4s;
+}
+.card:hover{
+  transform: scale(1.05);
+}
+/* call-section */
+.col-9.description h2 {
+  color:var(--white-color)!important;
+}
+.col-9.description p {
+  color: var(--white-color);
+}
+section#call-section {
+  background: linear-gradient(rgba(40, 58, 90, 0.9), rgba(40, 58, 90, 0.9)), url("../img/cta-bg.jpg") fixed center center;
+  background-size: cover;
+}
+.call-btn{
+  border: 2px solid white;
+  color:var(--white-color);
+  background-color:#273856;
+  transition: all 0.3s;
+}
+.call-btn:hover{
+  background-color: var(--text-color);
+  border: none;
+}
+/* team-section */
+.member-img {
+  width: 29%;
+  height:29%;
+}
+.team_inner{
+  position: relative;
+  box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
+  padding: 30px;
+  border-radius: 5px;
+  background: #fff;
+  transition: 0.5s;
+}
+.social a i{
+  transition: ease-in-out 0.3s;
+  background: #eff2f8;
+  color: var(--header-color)!important;
+}
+.social a i:hover{
+  background-color: var(--text-color);
+  color: var(--white-color)!important;
+}
+.pricing_inner h6{
+  color: var(--text-color);
+}
+ul li {
+  list-style: none;
+  color: var(--secondary-color);
+}
+.pricing_inner ul.icon{
+  color: green !important;
+}
+.pricing_inner{
+  box-shadow: 0 3px 20px -2px rgba(20, 45, 100, 0.1);
+  background: #fff;
+  border-top: 4px solid #fff;
+  border-radius: 5px;
+}
+.pricing-btn{
+  border-radius: 34px;
+  border:1px solid var(--text-color)!important;
+  color: var(--text-color);
+}
+.pricing-btn:hover{
+  color:var(--white-color);
+  background:var(--text-color);
+}
+.pricing-btn.price{
+  background:var(--text-color);
+  color:var(--white-color);
+}
