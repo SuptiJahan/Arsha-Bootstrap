@@ -12,7 +12,6 @@
     <!--font awesome 5-->
     <link rel="stylesheet" href="css/all.min.css">
     <!--bootstrap-->
-    
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <!-- animate -->
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
@@ -24,11 +23,11 @@
 <body>
     <!--start you coading here-->
  <!-- Header-section -->
- <section id="header" class="fixed-top d-flex">
+ <section id="header" class="fixed-top">
      <div class="container">
-        <nav class="navbar navbar-expand-lg">
+        <nav class="navbar navbar-expand-lg d-flex">
             <div class="container-fluid">
-              <a class="navbar-brand fs-2  " href="#">ARSHA</a>
+              <div class="navbar-brand logo fs-2">ARSHA</div>
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
               </button>
@@ -78,7 +77,7 @@
     <div class="container">
         <div class="row d-flex mt-5 pt-4">
             <div class="col" data-aos="fade-up"  data-aos-delay="200">
-               <h1 class="display-5 fw-bold">Better Solutions For Your Business</h1>
+               <h1 class=" title display-5 fw-bold">Better Solutions For Your Business</h1>
                <h2 class="fs-4 pt-2">We are team of talented designers making websites with Bootstrap</h2>
                <button class="btn banner-button rounded-pill px-4 fw-bold py-2 mt-5 ">Get started</button>
             </div>
@@ -119,10 +118,10 @@
     <div class="title text-center my-5 fw-bold">
       <h2>ABOUT US</h2>
     </div>
-    <div class="row mb-5 pb-3 ">
+    <div class="row mb-5 pb-2 ">
       <div class="col-6">
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-        <ul class="about">
+        <ul class="about ps-0">
           <li class="py-1"><i class="fas fa-check-double pe-2"></i>Ullamco laboris nisi ut aliquip ex ea commodo consequat</li>
           <li class="py-1"><i class="fas fa-check-double pe-2"></i>Duis aute irure dolor in reprehenderit in voluptate velit</li>
           <li class="py-1"><i class="fas fa-check-double pe-2"></i>Ullamco laboris nisi ut aliquip ex ea commodo consequat</li>
@@ -130,8 +129,7 @@
       </div>
       <div class="col-6">
         <p>Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-          <button class="btn about-button rounded px-4 py-2 mt-2 ">Learn More</button>
-        
+          <button class="btn about-button rounded mt-2 ">Learn More</button>
       </div>
     </div>
   </div>
@@ -149,8 +147,8 @@
           <div class="accordion accordion-flush" id="accordionFlushExample">
             <div class="accordion-item mb-3">
               <h2 class="accordion-header" id="flush-headingOne">
-                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
-                  01 Non consectetur a erat nam at lectus urna duis?
+                <button class="accordion-button collapsed " type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                  <span class="fs-5">01</span><span class="ms-3">Non consectetur a erat nam at lectus urna duis? </span> 
                 </button>
               </h2>
               <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
@@ -159,8 +157,8 @@
             </div>
             <div class="accordion-item mb-3">
               <h2 class="accordion-header" id="flush-headingTwo">
-                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
-                  02 Feugiat scelerisque varius morbi enim nunc?
+                <button class="accordion-button collapsed " type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                  <span class="fs-5">02</span><span class="ms-3"> scelerisque varius morbi enim nunc?</span> 
                 </button>
               </h2>
               <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
@@ -169,8 +167,8 @@
             </div>
             <div class="accordion-item mb-3">
               <h2 class="accordion-header" id="flush-headingThree">
-                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
-                  03 Dolor sit amet consectetur adipiscing elit?
+                <button class="accordion-button collapsed " type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                  <span class="fs-5">03</span><span class="ms-3">Dolor sit amet consectetur adipiscing elit? </span> 
                 </button>
               </h2>
               <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
@@ -190,15 +188,43 @@
   <div class="container">
     <div class="row mb-5 pb-5" data-aos="fade-right"  data-aos-delay="100">
       <div class="col-6">
-        <img src="img/skills.png" class="w-100 mt-5" alt="">
+        <img src="img/skills.png" class="w-100 h-75 mt-5 pt-3" alt="">
       </div>
       <div class="col-6"  data-aos-delay="100" data-aos="fade-left">
         <div class="count-inner">
           <h2 class="fw-bold">Voluptatem dignissimos provident quasi corporis voluptates</h2>
           <p><i>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</i></p>
         </div>
-      </div>
+        <div class="progress_inner">
+          <Span >HTML</Span>
+          <i class="skill">100%</i>
+        <div class="progress mb-4 mt-2" style="height: 11px;">
+          <div class="progress-bar" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+        </div>
+        </div>
+        <div class="progress_inner">
+          <Span >CSS</Span>
+          <i class="skill">90%</i>
+        <div class="progress mb-4 mt-2" style="height: 11px;">
+          <div class="progress-bar" role="progressbar" style="width: 90%" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+        </div>
+        </div>
+        <div class="progress_inner">
+          <Span >JAVASCRIPT</Span>
+          <i class="skill">75%</i>
+        <div class="progress mb-4 mt-2" style="height: 11px;">
+          <div class="progress-bar" role="progressbar" style="width: 75%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+        </div>
+        </div>
+        <div class="progress_inner">
+          <Span >PHOTOSHOP</Span>
+          <i class="skill">55%</i>
+        <div class="progress mb-4 mt-2" style="height: 11px;">
+             <div class="progress-bar " role="progressbar" style="width: 55%" aria-valuenow="55" aria-valuemin="0" aria-valuemax="100"></div>
+        </div>
+        </div>
     </div>
+  </div>
   </div>
 </section>
 <!-- services-section -->
@@ -265,7 +291,7 @@
         <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
       </div>
       <div class="col-3">
-      <button class="call-btn rounded-pill px-5 d-flex  py-3 fw-bold mt-4">Call To Action</button>
+      <button class="call-btn rounded-pill mt-5">Call To Action</button>
       </div>
     </div>
   </div>
@@ -398,47 +424,47 @@
       <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
     </div>
     <div class="row">
-      <div class="col">
-        <div class="pricing_inner px-4 py-3 my-5">
+      <div class="col-lg-4">
+        <div class="pricing_inner px-4 py-5 my-5">
           <h5>Free Plan</h5>
-          <h1 class="pt-3 display-5"><sup>$</sup> 0</h1>
+          <h5 class="pt-3"><sup>$</sup> 0</h5>
           <h6>per month</h6>
-          <ul>
-            <li class="mt-4 pb-3"> <i class="fas fa-abacus"></i>Quam adipiscing vitae proin</li>
-            <li class="pb-3"><i class="far fa-check"></i>Nec feugiat nisl pretium</li>
-            <li class="pb-3"><i class="far fa-check"></i>Nulla at volutpat diam uteera</li>
-            <li class="pb-3"><del>Pharetra massa massa ultricies</del></li>
-            <li class="pb-3"><del>Massa ultricies mi quis hendrerit</del></li>
+          <ul class="ps-0">
+            <li class="mt-4 pb-3"><i class="fas fa-check pe-3"></i>Quam adipiscing vitae proin</li>
+            <li class="pb-3"><i class="fas fa-check pe-3"></i>Nec feugiat nisl pretium</li>
+            <li class="pb-3"><i class="fas fa-check pe-3"></i>Nulla at volutpat diam uteera</li>
+            <li class="pb-3"><i class="fas fa-check pe-3"></i><del>Pharetra massa massa ultricies</del></li>
+            <li class="pb-3"><i class="fas fa-check pe-3"></i><del>Massa ultricies mi quis hendrerit</del></li>
           </ul>
           <button class="pricing-btn border ms-5 mb-5 py-2 px-4">get started</button>
         </div>
       </div>
-      <div class="col">
-        <div class="pricing_inner px-4 py-3 my-5">
+      <div class="col-lg-4">
+        <div class="pricing_inner inner px-4 py-5 my-5">
           <h5>Business Plan</h5>
-          <h1 class="pt-3 display-5"><sup>$</sup> 29</h1>
+          <h5 class="pt-3"><sup>$</sup> 29</h5>
           <h6>per month</h6>
-          <ul>
-            <li class="mt-4 pb-3">Quam adipiscing vitae proin</li>
-            <li class="pb-3">Nec feugiat nisl pretium</li>
-            <li class="pb-3">Nulla at volutpat diam uteera</li>
-            <li class="pb-3">Pharetra massa massa ultricies</li>
-            <li class="pb-3">Massa ultricies mi quis hendrerit</li>
+          <ul class="ps-0">
+            <li class="mt-4 pb-3"><i class="fas fa-check pe-3"></i>Quam adipiscing vitae proin</li>
+            <li class="pb-3"><i class="fas fa-check pe-3"></i>Nec feugiat nisl pretium</li>
+            <li class="pb-3"><i class="fas fa-check pe-3"></i>Nulla at volutpat diam uteera</li>
+            <li class="pb-3"><i class="fas fa-check pe-3"></i>Pharetra massa massa ultricies</li>
+            <li class="pb-3"><i class="fas fa-check pe-3"></i>Massa ultricies mi quis hendrerit</li>
           </ul>
           <button class="pricing-btn price border ms-5 mb-5 py-2 px-4">get started</button>
         </div>
       </div>
-      <div class="col">
-        <div class="pricing_inner px-4 py-3 my-5">
+      <div class="col-lg-4">
+        <div class="pricing_inner px-4 py-5 my-5">
           <h5>Developer Plan</h5>
-          <h1 class="pt-3 display-5"><sup>$</sup> 49</h1>
+          <h5 class="pt-3"><sup>$</sup> 49</h5>
           <h6>per month</h6>
-          <ul>
-            <li class="mt-4 pb-3">Quam adipiscing vitae proin</li>
-            <li class="pb-3">Nec feugiat nisl pretium</li>
-            <li class="pb-3">Nulla at volutpat diam uteera</li>
-            <li class="pb-3">Pharetra massa massa ultricies</li>
-            <li class="pb-4">Massa ultricies mi quis hendrerit</li>
+          <ul class="ps-0">
+            <li class="mt-4 pb-3"><i class="fas fa-check pe-3"></i>Quam adipiscing vitae proin</li>
+            <li class="pb-3"><i class="fas fa-check pe-3"></i>Nec feugiat nisl pretium</li>
+            <li class="pb-3"><i class="fas fa-check pe-3"></i>Nulla at volutpat diam uteera</li>
+            <li class="pb-3"><i class="fas fa-check pe-3"></i>Pharetra massa massa ultricies</li>
+            <li class="pb-4"><i class="fas fa-check pe-3"></i>Massa ultricies mi quis hendrerit</li>
           </ul>
           <button class="pricing-btn border ms-5 mb-5 py-2 px-4">get started</button>
         </div>
@@ -456,8 +482,8 @@
     <div class="accordion accordion-flush" id="accordionFlushExample">
       <div class="accordion-item mb-4">
         <h2 class="accordion-header" id="flush-headingTwo">
-          <button class="accordion-button collapsed fs-5 " type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
-            <i class="fas fa-question-circle icon-padding pe-3 fs-4"></i>
+          <button class="accordion-button collapsed fs-6 " type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+            <i class="fas fa-question-circle icon-padding pe-3 fs-5"></i>
             Non consectetur a erat nam at lectus urna duis?
           </button>
         </h2>
@@ -467,8 +493,8 @@
       </div>
       <div class="accordion-item mb-4">
         <h2 class="accordion-header" id="flush-headingThree">
-          <button class="accordion-button collapsed fs-5 " type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
-            <i class="fas fa-question-circle icon-padding pe-3 fs-4"></i>
+          <button class="accordion-button collapsed fs-6 " type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+            <i class="fas fa-question-circle icon-padding pe-3 fs-5"></i>
             Feugiat scelerisque varius morbi enim nunc?
           </button>
         </h2>
@@ -478,8 +504,8 @@
       </div>
       <div class="accordion-item mb-4">
         <h2 class="accordion-header" id="flush-headingTwo">
-          <button class="accordion-button collapsed fs-5 " type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
-            <i class="fas fa-question-circle icon-padding pe-3 fs-4"></i>
+          <button class="accordion-button collapsed fs-6 " type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+            <i class="fas fa-question-circle icon-padding pe-3 fs-5"></i>
             Dolor sit amet consectetur adipiscing elit?
           </button>
         </h2>
@@ -489,8 +515,8 @@
       </div>
       <div class="accordion-item mb-4">
         <h2 class="accordion-header" id="flush-headingTwo">
-          <button class="accordion-button collapsed fs-5 " type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
-            <i class="fas fa-question-circle icon-padding pe-3 fs-4"></i>
+          <button class="accordion-button collapsed fs-6 " type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+            <i class="fas fa-question-circle icon-padding pe-3 fs-5"></i>
             Tempus quam pellentesque nec nam aliquam sem et tortor consequat?
           </button>
         </h2>
@@ -500,8 +526,8 @@
       </div>
       <div class="accordion-item mb-4">
         <h2 class="accordion-header " id="flush-headingTwo">
-          <button class="accordion-button  collapsed fs-5" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
-            <i class="fas fa-question-circle icon-padding pe-3 fs-4"></i>
+          <button class="accordion-button  collapsed fs-6" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+            <i class="fas fa-question-circle icon-padding pe-3 fs-5"></i>
             Tortor vitae purus faucibus ornare. Varius vel pharetra vel turpis nunc eget lorem dolor?
           </button>
         </h2>
@@ -520,33 +546,129 @@
        <h2 class="py-3 fs-2 fw-bold">CONTACT</h2>
        <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
     </div>
-    <div class="row">
-      <div class="col-5">
+    <div class="row gx-3">
+      <div class="col-lg-5 contact gx-5 py-3 ">
          <div class="contact_inner d-flex">
-           <i class="fas fa-map-marker-minus"></i>
+           <div class="contact-icon">
+            <i class=" fas fa-map-marker fs-5  pe-4 mt-3"></i>
+           </div>
         <div class="inner">
           <h3>Location:</h3>
           <p>A108 Adam Street, New York, NY 535022</p>     
         </div>
          </div>
          <div class="contact_inner d-flex">
-           <i class="fas fa-envelope-square"></i>
+           <div class="contact-icon">
+             <i class=" fas fa-envelope-square fs-5 pe-4 mt-3"></i>
+           </div> 
           <div class="inner">
             <h3>Email:</h3>
             <p>nfo@example.com</p>
           </div>
          </div>
          <div class="contact_inner d-flex">
-           <i class="fas fa-map-marker-minus"></i>
+          <div class="contact-icon">
+            <i class=" fas fa-mobile-alt fs-5  pe-4 mt-3"></i>
+          </div>
          <div class="inner">
             <h3>Call:</h3>
             <p>+1 5589 55488 55s</p>
           </div>
+          </div>
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d58523.56828925326!2d90.4923882208894!3d23.542462619687253!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755addfa6be8f6d%3A0x743bc3c6e0d9c53a!2sMunshiganj!5e0!3m2!1sen!2sbd!4v1631704473641!5m2!1sen!2sbd" width="350" height="350" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+      </div>
+      <div class="col-lg-7 contact gx-5 py-3 ">
+        <form class="row">
+          <div class="col-6 my-3 ">
+            <label for="Name">Your Name</label>
+            <input type="text" name="name" id="name" class="form-control">
+          </div>
+          <div class="col-6 my-3">
+            <label for="Name">Your Email</label>
+            <input type="email" name="email" id="email" class="form-control">
+          </div>
+          <div class="col-12 my-3">
+            <label for="subject">Subject</label>
+            <input type="text" name="subject" id="subject" class="form-control">
+          </div>
+          <div class="col">
+            <label for="massage">Message</label>
+            <textarea class="form-control" name="massage" id="massage" rows="10"></textarea>
+          </div>
+        </form>
+        <button class="last-button mt-4">Send massage</button>
+      </div>
+    </div>
+  </div>
+</section>
+<!--Footer-section-->
+<section id="Footer-section"  class="my-5">
+  <div class="container">
+    <div class="row">
+      <div class="col-3">
+        <div class="Footer_inner">
+        <h3>ARSHA</h3>
+        <p>A108 Adam Street<br>
+          New York, NY 535022<br>
+          United States<br><br>
+          <strong>Phone:</strong>  +1 5589 55488 55<br>
+          <strong>Email:</strong> info@example.com</p>
+      </div>
+      </div>
+      <div class="col-2">
+        <div class="Footer_inner">
+        <h4 class="fs-6">Useful Links</h4>
+        <ul>
+          <li> <i class="fas fa-chevron-right right-icons"></i><a class="py-2" href="#">Home</a></li>
+          <li> <i class="fas fa-chevron-right right-icons"></i><a class="py-2" href="#"> About us</a></li>
+          <li> <i class="fas fa-chevron-right right-icons"></i><a class="py-2" href="#">Services</a></li>
+          <li> <i class="fas fa-chevron-right right-icons"></i><a class="py-2" href="#">Terms of service</a></li>
+          <li> <i class="fas fa-chevron-right right-icons"></i><a class="py-2" href="#">Privacy policy</a></li>
+        </ul>
         </div>
       </div>
-      <div class="col-7">
-
+      <div class="col-3">
+        <div class="Footer_inner">
+         <h4 class="fs-6">Our Services</h4>
+         <ul>
+          <li> <i class="fas fa-chevron-right right-icons"></i><a class="py-2" href="#">Web Design</a></li>
+          <li> <i class="fas fa-chevron-right right-icons"></i><a class="py-2" href="#">Web Development</a></li>
+          <li> <i class="fas fa-chevron-right right-icons"></i><a class="py-2" href="#">Product Management</a></li>
+          <li> <i class="fas fa-chevron-right right-icons"></i><a class="py-2" href="#">Marketing</a></li>
+          <li> <i class="fas fa-chevron-right right-icons"></i><a class="py-2" href="#">Graphic Design</a></li>
+        </ul>
       </div>
+      </div>
+      <div class="col-4">
+        <div class="Footer_inner">
+          <h4 class="fs-6 pb-2">Our Social Networks</h4>
+         <p class="footer-p">Cras fermentum odio eu feugiat <br> lide par naso tierra videa magna <br> derita valies</p>
+         <div class="social icon d-flex">
+          <a href="#">
+            <i class="fs-6 me-2 p-2 rounded-circle fab 
+            fa-twitter"></i>
+          </a>
+          <a href="#">
+            <i class="fs-6 me-2 p-2 rounded-circle fab fa-facebook"></i>
+          </a>
+          <a href="#">
+            <i class="fs-6 me-2 p-2 rounded-circle fab fa-instagram"></i>
+          </a> 
+            <a href="#">
+              <i class="fs-6 me-2 p-2 rounded-circle fab fa-linkedin-in"></i>
+            </a>
+        </div>
+      </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!--End-footer-->
+<section id="End-footer" class="py-4">
+  <div class="container">
+    <div class="end-inner d-flex justify-content-between">
+      <p>© Copyright <span>Arsha. </span> All Rights Reserved</p>
+      <p>Designed by BootstrapMade</p>
     </div>
   </div>
 </section>
