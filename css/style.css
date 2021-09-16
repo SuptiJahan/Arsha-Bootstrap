@@ -130,11 +130,11 @@ button.accordion-button.collapsed {
   transform: scale(1.05);
 }
 /* call-section */
-.col-9.description h2 {
-  color:var(--white-color)!important;
+.description h2 {
+	color: var(--white-color);
 }
-.col-9.description p {
-  color: var(--white-color);
+.description p {
+	color: var(--white-color);
 }
 section#call-section {
   background: linear-gradient(rgba(40, 58, 90, 0.9), rgba(40, 58, 90, 0.9)), url("../img/cta-bg.jpg") fixed center center;
